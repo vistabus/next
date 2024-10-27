@@ -14,7 +14,7 @@ export function StartHome(s) {
   const fc = [h[0], ...(g(1) || ['N/A', 'N/A', 'N/A'])];
   const sc = [h[1], ...(g(2) || ['N/A', 'N/A', 'N/A'])];
   const tc = [h[2], ...(g(3) || ['N/A', 'N/A', 'N/A'])];
-  console.log(fc);
+  //console.log(fc);
   s([fc, sc, tc]);
 }
 

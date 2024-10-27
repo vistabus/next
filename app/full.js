@@ -83,6 +83,8 @@ const filteredData = parsedData.map(row => {
         .full tr td:nth-child(3){transform:translateY(calc(25px*${T.C}))}
         .full tr td:nth-child(4){transform:translateY(calc(25px*${T.D}))}
         .full tr td:nth-child(5){transform:translateY(calc(25px*${T.E}))}
+        .full {display: flex;
+          justify-content: center; }
       `}</style>
       <table>
         <thead>
